@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'rust';
+    src: url('../fonts/nexarustslab_blackshadow01free_macroman/NexaRustSlab-BlackShadow01-Free-webfont.eot');
+    src: url('../fonts/nexarustslab_blackshadow01free_macroman/NexaRustSlab-BlackShadow01-Free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/nexarustslab_blackshadow01free_macroman/NexaRustSlab-BlackShadow01-Free-webfont.woff2') format('woff2'),
+         url('../fonts/nexarustslab_blackshadow01free_macroman/NexaRustSlab-BlackShadow01-Free-webfont.woff') format('woff'),
+         url('../fonts/nexarustslab_blackshadow01free_macroman/NexaRustSlab-BlackShadow01-Free-webfont.ttf') format('truetype'),
+         url('../fonts/nexarustslab_blackshadow01free_macroman/NexaRustSlab-BlackShadow01-Free-webfont.svg#nexa_rust_slabblack_shadow_01') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+  background: url(../images/DD-Dirty-Polka-Dot-Background-56654-Preview.jpg) no-repeat center center fixed;
+  background-size: cover;
+  /*border: 10px solid pink;*/
+}
+
+#space {
+  height: 1000px;
+  /*border: 10px solid pink;*/
+}
+
+body {
+  /*margin-left: -15px;*/
+  margin: 0;
+  padding: 0;
+
+}
+
+nav {
+  width: 100%;
+  background-color: #5de;
+  height: 45px;
+  top: 0px
+  border-bottom: #3bc;
+
+}
+
+#navdiv {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 100%;
+}
+
+#pages {
+  float: right;
+  height: 100%;
+
+}
+
+#home {
+  float: left;
+  display: inline-block;
+}
+
+.navbtn {
+  width: 60px;
+  height: 100%;
+  background-color: #5de;
+  border: 1px solid black;
+  border-radius: 5%;
+  padding-top: 5%;
+  margin: 0px;
+  margin-top: auto;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#navBar {
+	background-color: #e99;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 10;
+}
+
+#navDisplayWidth {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#rightBar {
+	float: right;
+	display: inline-block;
+}
+
+button a {
+	color: black;
+	text-decoration: none;
+}
+
+#homeButton {
+	float: left;
+	display: inline-block;
+	margin-left: 2px;;
+}
+
+.navButton {
+	font-size: 16px;
+	color: black;
+	/* Added background-color, styled something else's opacity. */
+	background-color: #e99;
+	font-family: "rust", sans-serif;
+	height:50px;
+	border: 1px solid #e99;
+	margin-bottom: auto;
+	-webkit-transition-duration: 0.2s; /* Safari */
+	transition-duration: 0.2s;
+}
+
+.navButton:hover, #homeButton:hover {
+	background-color: #faa;
+	color: white;
+	border: 1px solid lightgrey;
+	border-radius: 2px;
+}
+
+.pageButton {
+	font-size: 16 px;
+	color: #efefef;
+	background-color: #888888;
+	/*font-family: "verdana", sans-serif;*/
+	text-transform: capitalize;
+	font-weight: normal;
+	height: 35px;
+	border: 1px none;
+	border-radius: 4px;
+}
+
+.navbtn span {
+display: inline;
+display: inline-table;
+display: inline-block;
+vertical-align: middle;
+}
+#about {
+  width: 45px;
+}
+
+#resume {
+  width: 55px;
+  }
+
+.navbtn:hover {
+  background-color: #ffaaaa;
+}
+
+#content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+h1 {
+  font-family: 'rust', verdana;
+  text-align: center;
+  color: black;
+  width: 100%;
+}
+
+#squidVector {
+  float: left;
+  width: 40%;
+  border: 8px solid #e99;
+  border-radius: 5%;
+  margin-right: 5px;
+}
+
+#copy {
+  font-size: 20px;
+}
