@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 1</title>
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="cf">
+          <li id="home"><a href="#">Home</a></li>
+          <li id="about"><a href="#">About</a></li>
+          <li id="portfolio"><a href="#">Portfolio</a></li>
+          <li id="resume"><a href="#">Resume</a></li>
+          <li class="menu"><a class="dropdown" href="#">Menu</a>
+            <ul>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+                <!-- End Nav Bar -->
+      <!-- <nav>
+        <div id="navdiv">
+          <div id="pages">
+            <a class="navbtn" id="about" href="about.html"><span>About</span></a>
+            <a class="navbtn" id="portfolio" href="portfolio.html"><span>Portfolio</span></a>
+            <a class="navbtn" id="resume" href="resume.html"><span>Resume</span></a>
+          </div>
+          <div id="home">
+            <a class="navbtn" href="index.html">Home</a>
+          </div>
+        </div>
+      </nav> -->
+    </header>
+    <h1>Cats, Cats, Cats</h1>
+    <div id="content">
+      <p class="centerText">These are some words about Cats.</p>
+      <div id="grid">
+        <div class="gridRow">
+          <div class="gridBox" id="box1">
+            <p class="gridBoxTitle">Thing</p>
+            <a href="#"><img src="images/cat.jpeg" alt="blank"></a>
+
+
+            <p class="gridBoxSummary">Something about something.</p>
+          </div>
+          <div class="gridBox" id="box2">
+            <p class="gridBoxTitle">Thing</p>
+            <a href="#"><img src="images/cat.jpeg" alt="blank"></a>
+
+
+            <p class="gridBoxSummary">Something about something. Boop Boop Boop
+              Beep  Beep Beep Blorp. Boop Boop Boop
+                Beep  Beep Beep Blorp. Boop Boop Boop
+                  Beep  Beep Beep Blorp. Boop Boop Boop
+                    Beep  Beep Beep Blorp. Boop Boop Boop
+                      Beep  Beep Beep Blorp. Boop Boop Boop
+                        Beep  Beep Beep Blorp.</p>
+          </div>
+          <div class="gridBox" id="box3">
+            <p class="gridBoxTitle">Thing</p>
+            <a href="#"><img src="images/cat.jpeg" alt="blank"></a>
+
+
+            <p class="gridBoxSummary">Something about something.</p>
+          </div>
+        </div>
+        <div class="gridRow">
+          <div class="gridBox" id="box4">
+            <p class="gridBoxTitle">Thing</p>
+            <a href="#"><img src="images/cat.jpeg" alt="blank"></a>
+
+
+            <p class="gridBoxSummary">This summary is going to have some longer
+              words like vociferous and coagulation. I want to see if a chiasmatic
+              assortment of existential phraseology will destroy my styles.</p>
+          </div>
+          <div class="gridBox" id="box5">
+            <p class="gridBoxTitle">Thing</p>
+            <a href="#"><img src="images/cat.jpeg" alt="blank"></a>
+
+
+            <p class="gridBoxSummary">Something about something.</p>
+          </div>
+          <div class="gridBox" id="box6">
+            <p class="gridBoxTitle">Really Long Title Thingy.</p>
+            <a href="#"><img src="images/cat.jpeg" alt="blank"></a>
+
+
+            <p class="gridBoxSummary">Something about something.</p>
+          </div>
+        </div>
+        <div class="gridRow">
+          <div class="gridBox" id="box7">
+            <p class="gridBoxTitle">Thing</p>
+            <a href="#"><img src="images/cat.jpeg" alt="blank"></a>
+
+
+            <p class="gridBoxSummary">Something about something.</p>
+          </div>
+          <div class="gridBox" id="box8">
+            <p class="gridBoxTitle">Thing</p>
+            <a href="#"><img src="images/cat.jpeg" alt="blank"></a>
+
+
+            <p class="gridBoxSummary">Something about something.</p>
+          </div>
+          <div class="gridBox" id="box9">
+            <p class="gridBoxTitle">Thing</p>
+            <a href="#"><img src="images/cat.jpeg" alt="blank"></a>
+
+
+            <p class="gridBoxSummary">Something about something.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Designed and Developed by John Beckius</p>
+    </footer>
+  </body>
+</html>
